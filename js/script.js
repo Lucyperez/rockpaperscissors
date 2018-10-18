@@ -8,4 +8,12 @@
 
 
 // DOCUMENT READY FUNCTION BELOW
+$("#shoot").click(function() {
+    // body...
+    $("#userChoice").text($("#input").val());
+})
+
+$("#choices").click(function(){
+    $("#computerChoice").text($("#input").val());
+})
 
